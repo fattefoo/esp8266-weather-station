@@ -26,6 +26,7 @@
 #include <Arduino.h>
 #include <JsonListener.h>
 #include <JsonStreamingParser.h>
+#include <TypeDef.h>
 
 typedef struct AerisObservationsData {
     uint64_t timestamp;
